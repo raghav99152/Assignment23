@@ -1,0 +1,602 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Default */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background: linear-gradient(#002bffba, #7948c9bd), url(./img/architect.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    color: white;
+}
+
+.anchor a {
+    text-decoration-line: none;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+a.red {
+    padding: 8px 9px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 46px;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.hhr h1 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: serif;
+}
+
+img {
+    width: 100%;
+}
+
+section.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left1 h2 {
+    font-size: 39px;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 39px;
+    color: white;
+}
+
+span.\32 020 {
+    color: red;
+}
+
+.main {
+    display: flex;
+    margin-top: 51px;
+    justify-content: space-between;
+}
+
+.right1 img {
+    height: 376px;
+    width: 297px;
+    border-radius: 88px 0px;
+}
+
+.left1 p {
+    margin: 40px 0px 40px 0px;
+    font-size: 22px;
+    color: white;
+}
+
+button.red {
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.img img {
+    width: 316px;
+    height: 372px;
+    border-radius: 9px;
+}
+
+.main23 {
+    display: flex;
+    margin-top: 68px;
+    justify-content: space-evenly;
+}
+
+.left121 {
+    margin-top: 98px;
+}
+
+.left121 p {
+    margin: 30px 0px 30px 0px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.left121 h2 {
+    font-size: 27px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.box1 h2 {
+    font-size: 26px;
+    font-weight: 900;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+/* .box1 {
+    width: 21%;
+    border: 4px dotted red;
+    padding: 10px;
+} */
+
+.mainbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+span.aa h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-family: math;
+    margin: 24px 0px 40px 0px;
+}
+
+.mainbody {
+    margin: 54px 0px;
+    background-color: #69b7d04a;
+    padding: 30px;
+}
+
+.shedule h2 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+/* .main4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+.img2 img {
+    /* width: 190px; */
+    /* border-radius: 50%; */
+    height: 108px;
+    width: 163px;
+    border-radius: 7px;
+}
+
+.main4 {
+    display: flex;
+}
+
+.box2.active {
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+
+.box2.active p {
+    padding: 29px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box2 {
+    border-radius: 50%;
+    border: 2px dotted red;
+    height: 100px;
+    width: 100px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.box2 p {
+    padding: 29px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.img2 {
+    margin-left: 80px;
+}
+
+.box2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.line {
+    height: 80px;
+    border-left: 5px dotted red;
+    margin-left: 46px;
+}
+
+.img2 img {
+    height: 121px;
+    margin: 0px 0px 56px 0px;
+}
+
+.maintxt {
+    margin-left: 80px;
+}
+
+.txt {
+    height: 121px;
+    margin: 0px 0px 56px 0px;
+}
+
+.txt h2 {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.txt p {
+    color: #000000ba;
+    margin: 18px 0px 18px 0px;
+}
+
+button.btn {
+    margin-left: 467px;
+    border: none;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border-radius: 4px;
+}
+
+.micsection {
+    display: flex;
+    justify-content: space-around;
+    background-color: #c4d5da;
+    margin-top: 38px;
+    display: flex;
+    padding: 38px;
+}
+
+.mic1 i {
+    font-size: 72px;
+}
+
+.mic1 h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mic1 p {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.mic1 {
+    width: 209px;
+    line-height: 2;
+    /* height: 211px; */
+    text-align: center;
+    padding: 11px;
+}
+
+.mic1.active21 {
+    background-color: red;
+}
+
+.img23 img {
+    position: relative;
+    width: 100%;
+    margin-top: 54px;
+    height: 400px;
+    border-radius: 18px;
+}
+
+.icon i {
+    background-color: white;
+    width: 95px;
+    height: 93px;
+    text-align: center;
+    line-height: 2;
+    margin-top: -282px;
+    font-size: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+}
+
+.lastbox12 {
+    width: 21%;
+    padding: 10px;
+}
+
+.lastbox12 h2 {
+    font-weight: 800;
+    font-family: serif;
+}
+
+.lastbox12 p {
+    color: #000000b8;
+    margin: 15px 0px 15px 0px;
+}
+
+.our h2 {
+    text-align: center;
+    padding: 51px 0px 0px 0px;
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.mainboxlast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    background-color: azure;
+}
+
+a.red2 {
+    color: red;
+}
+
+.last {
+    margin-top: 66px;
+    background-color: azure;
+    padding: 27px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+.alt h2 {
+    color: red;
+    font-size: 30px;
+}
+
+.lightblue {
+    background-color: #46619c;
+    padding: 20px;
+    color: white;
+}
+
+.program a {
+    text-decoration-line: none;
+    color: #fafafa87;
+    margin: 0px 22px 1px 6px;
+}
+
+.program h2 {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.icon12 h2 {
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.icon12 i {
+    margin-left: 12px;
+}
+
+.campusfooter {
+    text-align: center;
+    padding: 14px;
+    background-color: #350b97;
+    color: #ffffff9e;
+}
+
+.mic1:hover {
+    background-color: red;
+}
+
+fieldset {
+    border: 3px dotted red;
+    padding: 10px;
+    margin: 50px 20px;
+}
+
+legend {
+    color: red;
+    font-size: 24px;
+}
+#toggle{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .bars{display: none;}
+}
+
+@media screen and (max-width:768px) {
+    #toggle:checked ~ .anchor{
+        display: inline-block;
+    }
+    .bars{
+        font-size: 18px;
+        position: relative;
+        z-index: 99;
+        color: white;
+    }
+    .anchor{
+        display: none;
+
+    }
+    .anchor a{
+        margin-left: 0;
+        font-size: 18px;
+        display: block;
+    }
+
+    .anchor {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* width: 100%; */
+        /* height: 30vh; */
+        padding-top: 30px;
+        background-color: #0000007d;
+        text-align: center;
+    }
+    /* .main23 {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .mainbox{
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
+}
